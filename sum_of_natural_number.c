@@ -1,0 +1,25 @@
+/*
+Example ->
+
+print the sum of first n natural number.
+
+*/
+
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("Enter your number: ");
+    scanf("%d", &n);
+
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        sum += i;
+    }
+
+    printf("sum is = %d", sum);
+
+    return 0;
+    
+}
