@@ -1,0 +1,1 @@
+int result = strcmp(x, y);
